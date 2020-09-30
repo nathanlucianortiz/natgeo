@@ -1,0 +1,294 @@
+/* global */
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    --dark:#1f1f1f;
+    --yll:rgb(238, 205, 17);
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/* menu */
+.img-logo{
+    display: none;
+}
+.img-logo-square{
+    display: block;
+    width: 50px;
+}
+.menu-text{
+    display: none;
+}
+@media(min-width:768px){
+    .img-logo{
+        display: block;
+        width: 100px;
+        height: 30px;
+        padding-left: .5rem;
+        padding-top: .5rem;
+    }
+    .img-logo-square{
+        display: none;
+    }
+    .menu-text{
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        font-size: 13px;
+        font-weight: 700;
+    }
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 50px;
+}
+.menu i{
+    font-size: 16px;
+    color: var(--dark);
+}
+.fa-search{
+    display: none;
+}
+.subscribe-text{
+    display: none;
+}
+@media(min-width:768px){
+    .fa-search{
+        display: block;
+    }
+    .subscribe-text{
+        display: block;
+    }
+}
+.menu-subsection{
+    display: flex;
+    align-items: center;
+}
+.fa-user{
+    margin-right: 1rem;
+    padding-right: 1rem;
+    border-right: 1px solid #b8b5b5;
+}
+.fa-user:hover{
+    color: var(--dark);
+    cursor: pointer;
+}
+@media(min-width:768px){
+    .fa-user{
+        margin-right: .5rem;
+        padding-right: .5rem;
+        border: none;
+    }
+    .subscribe-text{
+        margin-right: .5rem;
+        padding-right: .5rem;
+    }
+    .fa-search{
+        margin-right: 1rem;
+        padding-right: 1rem;
+    }
+}
+.fa-angle-double-down{
+    margin-right: 1rem;
+}
+/* main */
+main{
+    background-color: black;
+    color: white;
+}
+ main h1{
+     font-size: 2.8rem;
+     font-weight: 900;
+     text-transform: uppercase;
+     text-align: center;
+     word-spacing: .4rem;
+     letter-spacing: .2rem;
+     margin-top: 3rem;
+     margin-bottom: .5rem;
+ }
+ main p{
+     text-align: center;
+     font-size: 1.2rem;
+     width: 90%;
+ }
+ main p strong{
+     font-weight: 300;
+     border-bottom: 2px solid var(--yll);  
+ }
+ main p strong:hover{
+    cursor: pointer;
+    background-color: var(--yll);
+    color: black;   
+ }
+ .title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+ .title p{
+     font-weight: lighter;
+ }
+ .line{
+     margin: 1.5rem 0 5rem 0;
+     width: 2rem;
+     text-align: center;
+     border-bottom: 4px solid var(--yll);  
+ }
+
+ /*news-section */
+
+ /*main-news*/
+ 
+ .main-news{
+     position: relative;
+     display: block;
+     background-image: url(https://www.nationalgeographic.com/content/dam/magazine/rights-exempt/2020/10/bengal-girls/bengal-girls-runaway-after-fight-with-mother.adapt.885.1.jpg);
+     background-position: center center;
+     background-size: cover;
+     width:22rem;
+     height:28rem;
+     border-right: 4px solid var(--yll);
+     border-bottom: 4px solid var(--yll);
+     margin-right: auto;
+     margin-left: auto; 
+}
+.main-news-text{
+    position: absolute;
+    left:0;
+    bottom:0;
+}    
+.main-news-text .news-title{
+    color: white;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 900;
+    letter-spacing: .3rem;
+    text-align: left;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.main-news-text .news-info{
+    color: white;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 900;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.main-news-text .news-icon{
+    color: white;
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: 900;
+    letter-spacing: .3rem;
+    text-align: left;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* news*/
+.news{
+    display: block;
+    width:22rem;
+    height:28rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+.news-text{
+    margin-top: -1.2rem;
+    display: block;
+    background-color: white;
+    color: black;
+}
+.news-text .news-title{
+    padding-top: 1.5rem;
+    color: rgb(156, 156, 156);
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 900;
+    letter-spacing: .3rem;
+    text-align: left;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.news-text .news-info{
+    color: black;
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 900;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.news-text .news-icon{
+    color: black;
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: 900;
+    letter-spacing: .3rem;
+    text-align: left;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+/* picks-section */
+.picks-section{
+    display: block;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.picks-section h2{
+    font-size: 1.4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: left;
+    word-spacing: .4rem;
+    letter-spacing: .2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    border-left: 5px solid var(--yll);
+    padding-left: 1rem;
+}
+.pick{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+    width: 20rem
+}
+.pick img{
+    width: 7rem;
+}
+.pick h3{
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 300;
+    padding-left: 1rem;
+}
+.pick p{
+    text-align: left;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+@media(min-width:768px){
+    .sections{
+        display: flex;
+        width: 60%;
+        flex-direction: row-reverse;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-news{
+        width:44rem;
+        height: 22rem;
+    }
+    .news-container{
+        display: flex;
+    }
+}
