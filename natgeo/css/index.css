@@ -104,43 +104,38 @@ main{
     color: white;
 }
  main h1{
-     font-size: 2.8rem;
-     font-weight: 900;
+     font-size: 2.4rem;
+     font-weight: 700;
      text-transform: uppercase;
      text-align: center;
      word-spacing: .4rem;
      letter-spacing: .2rem;
-     margin-top: 3rem;
-     margin-bottom: .5rem;
  }
  main p{
      text-align: center;
      font-size: 1.2rem;
-     width: 90%;
+     width: 80%;
  }
  main p strong{
-     font-weight: 300;
-     border-bottom: 2px solid var(--yll);  
+     font-weight: 400;
+     border-bottom: 3px solid var(--yll);  
  }
  main p strong:hover{
-    cursor: pointer;
     background-color: var(--yll);
-    color: black;   
+    color: black;
+    cursor: pointer;  
  }
  .title{
     display: flex;
-    align-items: center;
     flex-direction: column;
- }
- .title p{
-     font-weight: lighter;
+    align-items: center;
  }
  .line{
-     margin: 1.5rem 0 5rem 0;
-     width: 2rem;
-     text-align: center;
-     border-bottom: 4px solid var(--yll);  
- }
+    margin: 3rem 0 5rem 0;
+    text-align: center;
+    width: 2rem;
+    border-bottom: 3px solid var(--yll);  
+}
 
  /*news-section */
 
@@ -193,10 +188,22 @@ main{
     padding-bottom: 1rem;
 }
 
-/* news*/
+/* news */
+.news-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media(min-width:768px){
+    .news-container{
+        width: 50%;
+    }
+}
 .news{
     display: block;
-    width:22rem;
+    width:22.5rem;
     height:28rem;
     margin-left: auto;
     margin-right: auto;
@@ -237,24 +244,33 @@ main{
     padding-left: 1rem;
     padding-bottom: 1rem;
 }
+
+
 /* picks-section */
 .picks-section{
     display: block;
     width: 70%;
     margin-right: auto;
     margin-left: auto;
+    margin-top: auto;
 }
 .picks-section h2{
-    font-size: 1.4rem;
-    font-weight: 900;
+    font-size: 1.5rem;
     text-transform: uppercase;
     text-align: left;
-    word-spacing: .4rem;
-    letter-spacing: .2rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2rem;
-    border-left: 5px solid var(--yll);
+    letter-spacing: .3rem;
+    border-left: 3px solid var(--yll);
+    height: 2rem;
     padding-left: 1rem;
+    margin-bottom: 2rem;
+}
+@media(min-width:768px){
+    .picks-section{
+        margin-left: 22.5rem;
+    }
+    .picks-section h2{
+        margin-top: 2rem;
+    }
 }
 .pick{
     display: flex;
@@ -277,7 +293,7 @@ main{
     padding-left: 1rem;
 }
 @media(min-width:768px){
-    .sections{
+    .section{
         display: flex;
         width: 60%;
         flex-direction: row-reverse;
@@ -290,5 +306,266 @@ main{
     }
     .news-container{
         display: flex;
+    }
+}
+/* Mission Section */
+.img-mission{
+    position: relative;
+    display: grid;
+    width: 33%;
+    margin-left: 19rem;
+    margin-right: auto;
+    margin-top: -20rem;
+    padding-bottom: 5rem;
+}
+.mission-section h2{
+    font-family: 'Abel' sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .3rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5rem;
+    display: center;
+    align-items: center;
+}
+.line-2{
+    border-top: 3px solid var(--yll);
+    margin-top: 1rem;
+    width: 3rem;
+}
+.mission-section{
+    margin-top: -1.5rem;
+    margin-bottom: auto;
+}
+.mission-section h3{
+    font-family: 'Abel' sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    display: flex;
+    width: 20%;
+    margin-left: 52rem;
+}
+.mission-section p{
+    font-family: 'Abel' sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    display: flex;
+    width: 19%;
+    margin-left: 52rem;
+    margin-top: 1rem; 
+}
+.mission-section button{
+    border: 2px solid black;
+    background-color: white;
+    width: 10rem;
+    height: 3rem;
+    font-family: 'Abel' sans-serif;
+    font-weight: 400;
+    font-size: .9rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+    margin-left: 52rem;
+    margin-top: 3.5rem;
+    padding: 1rem;
+}
+@media(max-width:768px){
+    .img-mission{
+       display: flex;
+       width: 70%;
+       margin-left: 4.5rem;
+       margin-right: auto;
+    }
+    .mission-section h2{
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: .3rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1rem;
+        padding-top: 5rem;
+        display: center;
+        align-items: center;
+    }
+    .line-2{
+        width: 2rem;
+    }
+    .mission-section h3{
+        display: flex;
+        width: 60%;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-right: auto;
+    }
+    .mission-section p{
+        display: flex;
+        width: 55%;
+        margin-right: auto;
+        margin-left: 13rem;
+        margin-top: .1rem;  
+    }
+    .mission-section button{
+        display: flex;
+        margin-left: 10rem;
+        margin-right: auto;
+        margin-top: 20rem;
+        padding: 1rem;
+    }
+}
+/* footer */
+
+.footer-section{
+    background-color: #e4e3e3;
+    padding-top: 2rem;
+    padding-left: .5rem;
+    padding-right: 2rem;
+    margin-top: 7.5rem;
+}
+.section-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(min-width:768px){
+    .section-container{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.fa-facebook-f{
+    color: rgb(39, 39, 114);
+    padding-left: 1.5rem;
+}
+.fa-twitter{
+    color: rgb(17, 158, 194);
+    padding-left: 1.5rem;
+}
+.fa-instagram{
+    color: black;
+    padding-left: 1.5rem;
+}
+.fa-flipboard{
+    color: red;
+    padding-left: 1.5rem;
+}
+h5{
+    font-family: 'Abel' sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+}
+.footer-more-info h5{
+    border-left: 1px solid black;
+    height: .1rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+.footer-social-media h5{
+    border-left: 1px solid black;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-bottom: auto;
+    margin-top: 6rem;
+}
+.footer-icons{
+    margin-top: -2rem;
+}
+@media(min-width:768px){
+    .footer-more-info h5{
+        margin-top: 1rem;
+        height: 4rem;
+        padding-left: 1.7rem;
+    }
+    .footer-social-media h5{
+        margin-top: .1rem;
+        height: 4.5rem;
+        padding-left: 1.7rem;
+    }
+    .footer-more-info{
+        margin-top: 1rem;
+    }
+    .wrapper{
+        display: flex;
+        margin-left: 2rem;
+        margin-top: -5rem; 
+    }
+    .btn{
+        margin-left: .5rem;
+    }
+    .link-text{
+        margin-left: 4.5rem;
+    }
+    .footer-icons{
+    margin-top: -2.5rem;
+    }
+    .footer-social-media{
+        margin-top: 2rem;
+    }
+}
+#Email{
+    font-family: 'Abel' sans-serif;
+    font-weight: 700;
+    padding: .7rem;
+    width: 100%;
+    height: 1.7rem;
+    border: none;
+    background-color: white;
+    font-size: 1rem;
+    color: #4b4b4b;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1rem;
+
+}
+.btn{
+    font-family: 'Abel' sans-serif;
+    font-weight: 700;
+    padding: .7rem;
+    width: 105.5%;
+    height: 3.1rem;
+    background-color: #3f3f3f;
+    font-size: 1rem;
+    color: #ffffff;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1rem;
+}
+.btn:hover{
+    color: var(--yll);
+    cursor: pointer;
+}
+.link-text{
+    display: block;
+    font-family: sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 12px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    padding: 1.5rem;
+}
+.link-text p{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+@media(min-width:768px){
+    .link-text{
+        display: flex;
+    }
+    .link-text p{
+        margin-right: 2rem;
     }
 }
