@@ -11,28 +11,28 @@ is fixing them, while still maintaing the design, as changing the headings leads
 
 <br/><br/>
 
-![Middle Section](./img/nat-2.png)
+![Middle Section](./natgeo/img/nat-2.png)
 
 <br/><br/>
 
-![Second Middle Section](./img/nat-3.png)
+![Second Middle Section](./natgeo/img/nat-3.png)
 
 <br/><br/>
 
-![Footer](./img/nat-4.png)
+![Footer](./natgeo/img/nat-4.png)
 
 <br/><br/>
 
-![Minimized Top Section](./img/min-1.png)
+![Minimized Top Section](./natgeo/img/min-1.png)
 
 <br/><br/>
 
-![Minimized Middle Section](./img/min-2.png)
+![Minimized Middle Section](./natgeo/img/min-2.png)
 
 <br/><br/>
 
-![Minimized Second Middle Section](./img/min-3.png)
+![Minimized Second Middle Section](./natgeo/img/min-3.png)
 
 <br/><br/>
 
-![Minimized Footer](./img/min-4.png)
+![Minimized Footer](./natgeo/img/min-4.png)
