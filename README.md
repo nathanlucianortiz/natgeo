@@ -7,7 +7,7 @@ is fixing them, while still maintaing the design, as changing the headings leads
 
 <br/>
 
-![Top Section](./img/nat-1.png)
+![Top Section](./natgeo/img/nat-1.png)
 
 <br/><br/>
 
