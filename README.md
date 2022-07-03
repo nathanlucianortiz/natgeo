@@ -21,7 +21,7 @@ is fixing them, while still maintaing the design, as changing the headings leads
 
 ![Footer](./natgeo/img/nat-4.png)
 
-***
+<br/>
 
 ![Minimized Top Section](./natgeo/img/min-1.png)
 
