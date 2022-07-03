@@ -9,30 +9,30 @@ is fixing them, while still maintaing the design, as changing the headings leads
 
 ![Top Section](./natgeo/img/nat-1.png)
 
-<br/><br/>
+<br/>
 
 ![Middle Section](./natgeo/img/nat-2.png)
 
-<br/><br/>
+<br/>
 
 ![Second Middle Section](./natgeo/img/nat-3.png)
 
-<br/><br/>
+<br/>
 
 ![Footer](./natgeo/img/nat-4.png)
 
-<br/><br/>
+<br/>
 
 ![Minimized Top Section](./natgeo/img/min-1.png)
 
-<br/><br/>
+<br/>
 
 ![Minimized Middle Section](./natgeo/img/min-2.png)
 
-<br/><br/>
+<br/>
 
 ![Minimized Second Middle Section](./natgeo/img/min-3.png)
 
-<br/><br/>
+<br/>
 
 ![Minimized Footer](./natgeo/img/min-4.png)
